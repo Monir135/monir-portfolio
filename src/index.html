@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moniruzzaman</title>
+    <meta name="description" content="Check out version 1 of my portfolio - created using HTML, CSS, and JavaScript.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, portfolio">
+    <meta name="author" content="Moniruzzaman">
+    <meta property="og:title" content="Moniruzzaman's portfolio">
+    <meta property="og:description"
+        content="Moniruzzaman's personal portfolio showcasing front-end skills and JavaScript projects.">
+    <meta property="og:image" content="https://i.supaimg.com/de706478-05d0-41de-b660-be163a669200.png">
+    <meta property="og:url" content="https://monniruzzaman@example.com">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="My-Portfolio.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/png" href="Untitled (14).png">
+
+
+</head>
+
+<body>
+    <header class="navbar" id="top" data-aos="fade-down">
+        <img class="dev-pic" src="Untitled (19).png" alt="Moniruzzaman portfolio picture">
+        <h1 class="dev-name">Moniruzzaman</h1>
+        <h2 class="dev-post">Self-Taught Front-End Developer</h2>
+        <div class="social-media-icons-links-container">
+            <a href="https://github.com/Monir135" target="_blank"><img src="icons8-github-logo.svg" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/moniruzzaman-barbhuiya-385527239/" target="_blank"><img
+                    src="icons8-linkedin (1).svg" alt="Linkdin"></a>
+            <a href="https://www.facebook.com/moniruzzamanbarbhuiya.rasu" target="_blank"><img
+                    src="icons8-facebook-logo.svg" alt="facebook"></a>
+            <a href="https://www.youtube.com/@talktomonir7608" target="_blank"><img src="icons8-youtube-logo.svg"
+                    alt="youtube"></a>
+        </div>
+    </header>
+    <main>
+        <section class="about-dev-section" id="about" data-aos="fade-up">
+            <h2 class="about-dev">About Me</h2>
+            <p class="dev-description">
+                Hi, I am an aspiring web developer with a strong interest in <span
+                    class="dev-post-description">front-end</span> development. I’m learning how to build websites that
+                are both user-friendly and visually appealing. Currently, I am <span
+                    class="post-transition">transitioning</span> my career from being an <span class="current-post">AR
+                    (Accounts Receivable)</span> to becoming <span class="post-of-interest">a web developer</span> — a
+                journey that takes time but is steadily
+                progressing, as development has always been my passion. I hold a
+                diploma in Civil Engineering from a polytechnic institute, but over time, I discovered a deeper interest
+                in technology and the creative process of building websites. <span class="current-post">I work night
+                    shifts as an AR</span>, and as soon as I finish my shift, I dedicate myself to learning and building
+                real-world web projects. While working on them, I feel like time flies because I truly enjoy the
+                process. Thanks to my consistent effort and curiosity, I'm now confident enough to share my work with
+                you — and I’d love to collaborate with you!
+            </p>
+
+
+
+
+
+        </section>
+        <section class="dev-skills-container" id="skills" data-aos="zoom-in-up">
+            <h2 class="about-dev">Skills</h2>
+            <div class="dev-skills-grid">
+                <div style="background-color: #2a2a2a;"><img src="icons8-html-5.svg" alt="HTML5" loading="lazy"> </div>
+                <div style="background-color: #333333;"><img src="icons8-css3.svg" alt="CSS" loading="lazy"> </div>
+                <div style="background-color: #3a3a3a;"><img src="icons8-javascript (4).svg" alt="Js" loading="lazy"> </div>
+            </div>
+            <div class="skills-learning-note">
+                <span>🛠️ Learning JavaScript and other technologies in progress...</span>
+            </div>
+
+        </section>
+        <section class="dev-projects-container" id="projects" data-aos="fade-left">
+            <h2 class="about-dev">Projects</h2>
+
+
+            <div class="js-project-image-container">
+                <img class="todo-project-img" src="Untitled (5).png" alt="Project image" loading="lazy">
+            </div>
+            <div class="div-of-btn"><button onclick="replaceImageWithProject()" class="project-link-btn">View
+                    Live Project</button>
+            </div>
+
+            <div class="future-projects-plan">Distinctive projects are on the horizon</div>
+        </section>
+        <section class="contact-section" id="contact" data-aos="fade-up">
+            <iframe src="https://contact-form-rho-gold.vercel.app/" loading="lazy"></iframe>
+        </section>
+    </main>
+    <footer class="my-footer">
+        <div class="my-footer-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>&copy; 2025 Moniruzzaman. All rights reserved.</p>
+    </footer>
+    <script src="My-portfolio.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false
+        });
+    </script>
+
+</body>
+
+</html>

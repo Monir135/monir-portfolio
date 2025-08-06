@@ -214,7 +214,7 @@ body {
 .dev-projects-container {
     background-color: #1a1a1a;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-top: 35px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,7 +362,7 @@ body {
     background-color: #121212;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
-    padding: 40px 20px;
+    padding: 30px 15px;
     border-radius: 12px;
     border-top: 2px solid bisque;
 }
